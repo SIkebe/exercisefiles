@@ -3,7 +3,7 @@
 {
 	"name": "C# (.NET)",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/dotnet:1-8.0",
+	"image": "mcr.microsoft.com/devcontainers/dotnet:1-6.0",
 	"features": {
 		"ghcr.io/devcontainers/features/git:1": {
 			"ppa": true,
@@ -30,11 +30,14 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
+				"EditorConfig.EditorConfig",
+				"GitHub.copilot",
+				"github.copilot-chat",
+				"github.vscode-github-actions",
+				"github.vscode-pull-request-github",
                 "ms-dotnettools.csdevkit",
 				"ms-dotnettools.csharp",
-				"github.copilot-chat",
 				"ms-azuretools.vscode-docker",
-				"github.vscode-pull-request-github",
 				"redhat.vscode-yaml"
 			]
 		}
