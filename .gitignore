@@ -1,2 +1,7 @@
 node_modules
 .mono
+.vs
+.vscode
+bin
+obj
+*.user
